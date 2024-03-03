@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correio Elegante</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f883e5; /* Defina a cor de fundo desejada aqui */
+            font-family: 'Joseph', sans-serif; /* Aplicar a fonte personalizada para todo o corpo do documento */
+        }
+
+        @font-face {
+            font-family: 'Joseph';
+            src: url(josephsophia.otf) format(opentype);
+        }
+        
+</style>
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Correio Elegante &#X1F48C;</h1>
+    </div>
+
+    <form action="cadastro.php" autocomplete="off">
+        <select name="selecione"  required="required">
+            <option value="bs">Bilhetinho Simples</option>
+            <option value="bp">Bilhetinho com Pirulito</option>
+            <option value="bb">Bilhetinho com Bombom</option>
+        </select>
+        <p><input type="button" value="Enviar"></p>
+    </form>
+</body>
+</html>

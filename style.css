@@ -1,0 +1,11 @@
+*
+        body {
+            background-color: #f883e5; /* Defina a cor de fundo desejada aqui */
+            font-family: 'Joseph', sans-serif; /* Aplicar a fonte personalizada para todo o corpo do documento */
+        }
+
+        @font-face {
+            font-family: 'Joseph';
+            src: url(josephsophia.otf) format(opentype);
+        }
+    
