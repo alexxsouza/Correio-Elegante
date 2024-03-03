@@ -9,13 +9,20 @@
     box-sizing: border-box;
 }
 
-button{
-    width: 420px;
-    height: 55px;
+button {
+    max-width: 600px; /* Mesmo valor de max-width que o .container */
+    width: 100%; /* Para ocupar toda a largura disponível */
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
     background-color: #ff0066;
     color: #ffffff;
     border: none;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
 }
+
 button:hover{
     background: rgb(150, 18, 35);
   }
