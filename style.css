@@ -9,6 +9,17 @@
     box-sizing: border-box;
 }
 
+button{
+    width: 420px;
+    height: 55px;
+    background-color: #ff0066;
+    color: #ffffff;
+    border: none;
+}
+button:hover{
+    background: rgb(150, 18, 35);
+  }
+
 .container {
     background-color: #ffcccc; /* Cor de fundo rosa */
     text-align: center;
